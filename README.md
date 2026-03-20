@@ -1,5 +1,5 @@
-﻿# hack_with_blr 
-# Career Mentor AI - Powered by Hindsight
+﻿# hack_with_blr : Hind
+# Career Mentor AI - for Hindsight Hackathon
 
 An intelligent AI career mentor that uses Hindsight memory system to remember your skills, projects, internship applications, and provide personalized career guidance.
 
