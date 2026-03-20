@@ -201,14 +201,6 @@ const internships = await getInternshipRecommendations(userId);
 3. Set environment variables:
    - `GEMINI_API_KEY`
    - `HINDSIGHT_API_URL` (your deployed Hindsight URL)
-4. Deploy
-
-### Deploy Hindsight Backend
-
-Options:
-- Self-hosted on your infrastructure
-- Cloud deployment (AWS, GCP, Azure)
-- Docker container orchestration (Kubernetes)
 
 ## Design System
 
@@ -239,26 +231,7 @@ Options:
 - [ ] Learning resource recommendations
 - [ ] Real-time job alerts
 
-## Contributing
 
-This is a hackathon project. Feel free to fork, modify, and improve!
-
-## Support
-
-**Stuck on setup?**
-1. Check [HINDSIGHT_SETUP.md](./HINDSIGHT_SETUP.md) for detailed instructions
-2. Verify Docker is running: `docker ps`
-3. Check Hindsight health: `curl http://localhost:8000/health`
-4. Verify API key is set: `echo $GEMINI_API_KEY`
-
-**Questions about features?**
-- Review component source in `/components`
-- Check server actions in `/app/actions.ts`
-- See integration logic in `/lib`
-
-## License
-
-MIT - Built for the Hindsight Hackathon
 
 ## Acknowledgments
 
